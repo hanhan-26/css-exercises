@@ -1,6 +1,12 @@
 body {
   font-family: 'Courier New', Courier, monospace;
 }
+.info{
+  display: flex;
+  gap: 52px;
+  justify-content: center;
+  
+}
 
 img {
   width: 100px;
@@ -10,7 +16,23 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+  text-align: center;
+  margin-bottom: 32px;
 }
+
+
+
+.bar,.chil,.pep,.saf{
+  flex-wrap: wrap;
+  text-align: center;
+  width: 200px; 
+}
+/* Notes: just use the same class, max-width , could've put the text-align in the body*/
+
+
+
+
+
 
 /* do not edit this footer */
 .footer {
